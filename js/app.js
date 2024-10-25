@@ -40,3 +40,6 @@ const enlaces= document.querySelectorAll('.navegacion a')
 console.log(enlaces[0])
 
 enlaces[1].textContent= "Nuevo enlace"
+
+
+enlaces[i].url='https://www.freecodecamp.org/espanol/news/guia-para-principiantes-de-git-y-github/'
