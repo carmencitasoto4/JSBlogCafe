@@ -37,9 +37,7 @@ textoHeader.classList.add('nueva-clase')
 
 const enlaces= document.querySelectorAll('.navegacion a')
 
-console.log(enlaces[2])
 
-enlaces[2].textContent= "Nuevo enlace"
 
 const nuevoEnlace = document.createElement('A') 
 nuevoEnlace.textContent= "Ver más"
