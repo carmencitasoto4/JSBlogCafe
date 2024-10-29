@@ -37,23 +37,6 @@ textoHeader.classList.add('nueva-clase')
 
 const enlaces= document.querySelectorAll('.navegacion a')
 
-console.log(enlaces[2])
+//console.log(enlaces[2])
 
-enlaces[2].textContent= "Nuevo enlace"
-
-const nuevoEnlace = document.createElement('A') 
-nuevoEnlace.textContent= "Ver más"
-nuevoEnlace.href ="https://paletadecolores.com.ar/"
-nuevoEnlace.classList.add("nueva-clase")
-
-const navegacion = document.querySelector('.navegacion')
-
-navegacion.appendChild(nuevoEnlace)
-
-const nuevoParrafo = document.createElement('P')
-console.log(nuevoParrafo)
-nuevoParrafo.textContent= "Minim labore esse aute mollit proident aute quis do esse qui in."
-nuevoParrafo.classList.add('nueva-clase')
-const headerTexto= document.querySelector('.header__texto')
-console.log(headerTexto)
-headerTexto.appendChild(nuevoParrafo)
+//enlaces[1].textContent= "Nuevo enlace"
