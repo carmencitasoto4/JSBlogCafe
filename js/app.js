@@ -55,3 +55,27 @@ const persona = {
  const headerTexto= document.querySelector('.header__texto')
  console.log(headerTexto)
  headerTexto.appendChild(nuevoParrafo)
+
+ const btnForm= document.querySelector('.formulario input[type=submit]')
+ console.log(btnForm)
+
+ /*btnForm.addEventListener('click', function(){
+
+ })*/
+
+ btnForm.addEventListener('click', imprimirClick)
+
+ function imprimirClick(e){
+    e.preventDefault()
+    console.log("Click")
+ }
+
+
+ const contacto=document.querySelector("h3")
+
+ contacto.addEventListener('click', cambiarClase)
+
+ function cambiarClase(){
+    contacto.classList.toggle("nueva-clase")
+    contacto.textContent="Error"
+ }
